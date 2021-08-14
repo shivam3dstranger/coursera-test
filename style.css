@@ -1,10 +1,16 @@
 h1{
     text-align: center;
 }
-h2{
-  text-align: right;
-  margin-right: 2px;
+div{
+    position: relative;
+}
+p{
+    position: relative;
+}
+span{
 
+float: right;
+background-color: red;
 }
 
 p1{
