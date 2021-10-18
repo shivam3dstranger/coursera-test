@@ -321,7 +321,7 @@ function insertItemPrice(html,
     return insertProperty(html, pricePropName, "");
   }
 
-  priceValue = "0 Rs" + priceValue.toFixed(2);
+  priceValue = "Rs.100" + priceValue.toFixed(2);
   html = insertProperty(html, pricePropName, priceValue);
   return html;
 }
